@@ -17,15 +17,14 @@ body{
          background-image: url(./img/Kalnas.jpg);
          background-size: cover;
          background-position: center;
-         filter: blur(40px);
+         filter: blur(30px);
     }
     main{
         display: inline-block;
         width: 800px;
-        margin-top: 60px;
-        margin-bottom: 100px;
-        margin-left: calc((100% - 800px) / 2);
-        position: relative;
+        top: 50%;
+        left: 50%;
+        position: absolute;
         transform: translate(-50%, -50%);
     }
         .left-side{
